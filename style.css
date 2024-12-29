@@ -1,0 +1,160 @@
+@font-face {
+    font-family: nb;
+    src: url(./assets/NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: rejouice;
+    src: url(./assets/Rejouice-Headline.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nb;
+    
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #dadada;
+    position: relative;
+}
+
+#cursor {
+    height: 7vw;
+    width: 7vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+#cursor h5 {
+    font-size: 1.15vw;
+    font-weight: 500;
+}
+
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0); */
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    /* height: 100px; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3vw 3vw;
+
+}
+
+nav .information{
+    /* height: 100px; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3vw 3vw;
+
+}
+
+
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.4vw;
+}
+
+#page1-content h1{
+    font-family: rejouice;
+    font-size: 15vw;
+    font-weight: 100;
+    line-height: 27vw;
+    
+}
+
+#page1-content h1 span {
+        font-family: rejouice;
+}
+
+#page2{
+    height: 380vh;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.about-section{
+    padding: 100px;
+    background-color: black;
+}
+
+.about-section h1{
+    margin-top: 100px;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    font-family: 'Gilroy-Medium', sans-serif;
+    /* color: white; */
+
+}
+
+.about-section p{
+    margin-top: 80px;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-family: 'Gilroy-Light', sans-serif;
+    /* color: white; */
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
